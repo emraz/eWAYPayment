@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		141B54F1DA741A566458E382 /* libPods-eWAYPaymnet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4BE63CB4B052CECF5B5D29 /* libPods-eWAYPaymnet.a */; };
+		1CB3BE79D1FD1D4261303DF4 /* libPods-eWAYPaymnetUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4490AA0C2301510346175AA /* libPods-eWAYPaymnetUITests.a */; };
+		506C0A101F99BE8C0008AF34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 506C0A0F1F99BE8C0008AF34 /* AppDelegate.m */; };
+		506C0A131F99BE8C0008AF34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506C0A121F99BE8C0008AF34 /* ViewController.m */; };
+		506C0A161F99BE8C0008AF34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 506C0A141F99BE8C0008AF34 /* Main.storyboard */; };
+		506C0A181F99BE8C0008AF34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506C0A171F99BE8C0008AF34 /* Assets.xcassets */; };
+		506C0A1B1F99BE8C0008AF34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 506C0A191F99BE8C0008AF34 /* LaunchScreen.storyboard */; };
+		506C0A1E1F99BE8C0008AF34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 506C0A1D1F99BE8C0008AF34 /* main.m */; };
+		506C0A281F99BE8C0008AF34 /* eWAYPaymnetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 506C0A271F99BE8C0008AF34 /* eWAYPaymnetTests.m */; };
+		506C0A331F99BE8C0008AF34 /* eWAYPaymnetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 506C0A321F99BE8C0008AF34 /* eWAYPaymnetUITests.m */; };
+		506C0A431F99D6C20008AF34 /* ERProgressHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 506C0A421F99D6C20008AF34 /* ERProgressHud.m */; };
+		7544714BA7508651B7E443FB /* libPods-eWAYPaymnetTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3528F109AFDC8D978B9FCFE8 /* libPods-eWAYPaymnetTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		506C0A241F99BE8C0008AF34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 506C0A031F99BE8C0008AF34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 506C0A0A1F99BE8C0008AF34;
+			remoteInfo = eWAYPaymnet;
+		};
+		506C0A2F1F99BE8C0008AF34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 506C0A031F99BE8C0008AF34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 506C0A0A1F99BE8C0008AF34;
+			remoteInfo = eWAYPaymnet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A9745E4515ADEC2EC02CC92 /* Pods-eWAYPaymnetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eWAYPaymnetTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eWAYPaymnetTests/Pods-eWAYPaymnetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0BD83BCE79F530024C020F00 /* Pods-eWAYPaymnetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eWAYPaymnetUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-eWAYPaymnetUITests/Pods-eWAYPaymnetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		17D93634DA0094666621033F /* Pods-eWAYPaymnetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eWAYPaymnetUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eWAYPaymnetUITests/Pods-eWAYPaymnetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		25F7E442E79B00AA6E271951 /* Pods-eWAYPaymnetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eWAYPaymnetTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-eWAYPaymnetTests/Pods-eWAYPaymnetTests.release.xcconfig"; sourceTree = "<group>"; };
+		3528F109AFDC8D978B9FCFE8 /* libPods-eWAYPaymnetTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eWAYPaymnetTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		506C0A0B1F99BE8C0008AF34 /* eWAYPaymnet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eWAYPaymnet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		506C0A0E1F99BE8C0008AF34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		506C0A0F1F99BE8C0008AF34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		506C0A111F99BE8C0008AF34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		506C0A121F99BE8C0008AF34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		506C0A151F99BE8C0008AF34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		506C0A171F99BE8C0008AF34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		506C0A1A1F99BE8C0008AF34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		506C0A1C1F99BE8C0008AF34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		506C0A1D1F99BE8C0008AF34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		506C0A231F99BE8C0008AF34 /* eWAYPaymnetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eWAYPaymnetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		506C0A271F99BE8C0008AF34 /* eWAYPaymnetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eWAYPaymnetTests.m; sourceTree = "<group>"; };
+		506C0A291F99BE8C0008AF34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		506C0A2E1F99BE8C0008AF34 /* eWAYPaymnetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eWAYPaymnetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		506C0A321F99BE8C0008AF34 /* eWAYPaymnetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eWAYPaymnetUITests.m; sourceTree = "<group>"; };
+		506C0A341F99BE8C0008AF34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		506C0A411F99D6C20008AF34 /* ERProgressHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERProgressHud.h; sourceTree = "<group>"; };
+		506C0A421F99D6C20008AF34 /* ERProgressHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERProgressHud.m; sourceTree = "<group>"; };
+		989D865159167C7F49AEFF65 /* Pods-eWAYPaymnet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eWAYPaymnet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eWAYPaymnet/Pods-eWAYPaymnet.debug.xcconfig"; sourceTree = "<group>"; };
+		D3B7F8D021BC22C747F3F167 /* Pods-eWAYPaymnet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eWAYPaymnet.release.xcconfig"; path = "Pods/Target Support Files/Pods-eWAYPaymnet/Pods-eWAYPaymnet.release.xcconfig"; sourceTree = "<group>"; };
+		EA4BE63CB4B052CECF5B5D29 /* libPods-eWAYPaymnet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eWAYPaymnet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4490AA0C2301510346175AA /* libPods-eWAYPaymnetUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eWAYPaymnetUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		506C0A081F99BE8C0008AF34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141B54F1DA741A566458E382 /* libPods-eWAYPaymnet.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506C0A201F99BE8C0008AF34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7544714BA7508651B7E443FB /* libPods-eWAYPaymnetTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506C0A2B1F99BE8C0008AF34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB3BE79D1FD1D4261303DF4 /* libPods-eWAYPaymnetUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		506C0A021F99BE8C0008AF34 = {
+			isa = PBXGroup;
+			children = (
+				506C0A0D1F99BE8C0008AF34 /* eWAYPaymnet */,
+				506C0A261F99BE8C0008AF34 /* eWAYPaymnetTests */,
+				506C0A311F99BE8C0008AF34 /* eWAYPaymnetUITests */,
+				506C0A0C1F99BE8C0008AF34 /* Products */,
+				8573E6CE77EC5F43B7C0A1B9 /* Pods */,
+				90619118D314717CC578BF73 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		506C0A0C1F99BE8C0008AF34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				506C0A0B1F99BE8C0008AF34 /* eWAYPaymnet.app */,
+				506C0A231F99BE8C0008AF34 /* eWAYPaymnetTests.xctest */,
+				506C0A2E1F99BE8C0008AF34 /* eWAYPaymnetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		506C0A0D1F99BE8C0008AF34 /* eWAYPaymnet */ = {
+			isa = PBXGroup;
+			children = (
+				506C0A401F99D6C20008AF34 /* ERProgressHud */,
+				506C0A0E1F99BE8C0008AF34 /* AppDelegate.h */,
+				506C0A0F1F99BE8C0008AF34 /* AppDelegate.m */,
+				506C0A111F99BE8C0008AF34 /* ViewController.h */,
+				506C0A121F99BE8C0008AF34 /* ViewController.m */,
+				506C0A141F99BE8C0008AF34 /* Main.storyboard */,
+				506C0A171F99BE8C0008AF34 /* Assets.xcassets */,
+				506C0A191F99BE8C0008AF34 /* LaunchScreen.storyboard */,
+				506C0A1C1F99BE8C0008AF34 /* Info.plist */,
+				506C0A1D1F99BE8C0008AF34 /* main.m */,
+			);
+			path = eWAYPaymnet;
+			sourceTree = "<group>";
+		};
+		506C0A261F99BE8C0008AF34 /* eWAYPaymnetTests */ = {
+			isa = PBXGroup;
+			children = (
+				506C0A271F99BE8C0008AF34 /* eWAYPaymnetTests.m */,
+				506C0A291F99BE8C0008AF34 /* Info.plist */,
+			);
+			path = eWAYPaymnetTests;
+			sourceTree = "<group>";
+		};
+		506C0A311F99BE8C0008AF34 /* eWAYPaymnetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				506C0A321F99BE8C0008AF34 /* eWAYPaymnetUITests.m */,
+				506C0A341F99BE8C0008AF34 /* Info.plist */,
+			);
+			path = eWAYPaymnetUITests;
+			sourceTree = "<group>";
+		};
+		506C0A401F99D6C20008AF34 /* ERProgressHud */ = {
+			isa = PBXGroup;
+			children = (
+				506C0A411F99D6C20008AF34 /* ERProgressHud.h */,
+				506C0A421F99D6C20008AF34 /* ERProgressHud.m */,
+			);
+			path = ERProgressHud;
+			sourceTree = "<group>";
+		};
+		8573E6CE77EC5F43B7C0A1B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				989D865159167C7F49AEFF65 /* Pods-eWAYPaymnet.debug.xcconfig */,
+				D3B7F8D021BC22C747F3F167 /* Pods-eWAYPaymnet.release.xcconfig */,
+				0A9745E4515ADEC2EC02CC92 /* Pods-eWAYPaymnetTests.debug.xcconfig */,
+				25F7E442E79B00AA6E271951 /* Pods-eWAYPaymnetTests.release.xcconfig */,
+				17D93634DA0094666621033F /* Pods-eWAYPaymnetUITests.debug.xcconfig */,
+				0BD83BCE79F530024C020F00 /* Pods-eWAYPaymnetUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		90619118D314717CC578BF73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA4BE63CB4B052CECF5B5D29 /* libPods-eWAYPaymnet.a */,
+				3528F109AFDC8D978B9FCFE8 /* libPods-eWAYPaymnetTests.a */,
+				F4490AA0C2301510346175AA /* libPods-eWAYPaymnetUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		506C0A0A1F99BE8C0008AF34 /* eWAYPaymnet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506C0A371F99BE8D0008AF34 /* Build configuration list for PBXNativeTarget "eWAYPaymnet" */;
+			buildPhases = (
+				5CFD290FD2D05BA51EE16FA0 /* [CP] Check Pods Manifest.lock */,
+				506C0A071F99BE8C0008AF34 /* Sources */,
+				506C0A081F99BE8C0008AF34 /* Frameworks */,
+				506C0A091F99BE8C0008AF34 /* Resources */,
+				7AEDED3E51EDD948148F45C2 /* [CP] Embed Pods Frameworks */,
+				F5F6038FDDEA9F42064A0969 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eWAYPaymnet;
+			productName = eWAYPaymnet;
+			productReference = 506C0A0B1F99BE8C0008AF34 /* eWAYPaymnet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		506C0A221F99BE8C0008AF34 /* eWAYPaymnetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506C0A3A1F99BE8D0008AF34 /* Build configuration list for PBXNativeTarget "eWAYPaymnetTests" */;
+			buildPhases = (
+				CD1659723C72042A7E6E1F6B /* [CP] Check Pods Manifest.lock */,
+				506C0A1F1F99BE8C0008AF34 /* Sources */,
+				506C0A201F99BE8C0008AF34 /* Frameworks */,
+				506C0A211F99BE8C0008AF34 /* Resources */,
+				49523DEC06763BA0F2BA41B6 /* [CP] Embed Pods Frameworks */,
+				2DC73791474F239CF73FC999 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				506C0A251F99BE8C0008AF34 /* PBXTargetDependency */,
+			);
+			name = eWAYPaymnetTests;
+			productName = eWAYPaymnetTests;
+			productReference = 506C0A231F99BE8C0008AF34 /* eWAYPaymnetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		506C0A2D1F99BE8C0008AF34 /* eWAYPaymnetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506C0A3D1F99BE8D0008AF34 /* Build configuration list for PBXNativeTarget "eWAYPaymnetUITests" */;
+			buildPhases = (
+				ECAAB017933BD436C6DF3ACB /* [CP] Check Pods Manifest.lock */,
+				506C0A2A1F99BE8C0008AF34 /* Sources */,
+				506C0A2B1F99BE8C0008AF34 /* Frameworks */,
+				506C0A2C1F99BE8C0008AF34 /* Resources */,
+				C3BBBFC130E24E78710F0CF3 /* [CP] Embed Pods Frameworks */,
+				A6B5C963398C94109EA4A76A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				506C0A301F99BE8C0008AF34 /* PBXTargetDependency */,
+			);
+			name = eWAYPaymnetUITests;
+			productName = eWAYPaymnetUITests;
+			productReference = 506C0A2E1F99BE8C0008AF34 /* eWAYPaymnetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		506C0A031F99BE8C0008AF34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Matrix Solution";
+				TargetAttributes = {
+					506C0A0A1F99BE8C0008AF34 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					506C0A221F99BE8C0008AF34 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 506C0A0A1F99BE8C0008AF34;
+					};
+					506C0A2D1F99BE8C0008AF34 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 506C0A0A1F99BE8C0008AF34;
+					};
+				};
+			};
+			buildConfigurationList = 506C0A061F99BE8C0008AF34 /* Build configuration list for PBXProject "eWAYPaymnet" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 506C0A021F99BE8C0008AF34;
+			productRefGroup = 506C0A0C1F99BE8C0008AF34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				506C0A0A1F99BE8C0008AF34 /* eWAYPaymnet */,
+				506C0A221F99BE8C0008AF34 /* eWAYPaymnetTests */,
+				506C0A2D1F99BE8C0008AF34 /* eWAYPaymnetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		506C0A091F99BE8C0008AF34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506C0A1B1F99BE8C0008AF34 /* LaunchScreen.storyboard in Resources */,
+				506C0A181F99BE8C0008AF34 /* Assets.xcassets in Resources */,
+				506C0A161F99BE8C0008AF34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506C0A211F99BE8C0008AF34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506C0A2C1F99BE8C0008AF34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DC73791474F239CF73FC999 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eWAYPaymnetTests/Pods-eWAYPaymnetTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49523DEC06763BA0F2BA41B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eWAYPaymnetTests/Pods-eWAYPaymnetTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CFD290FD2D05BA51EE16FA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7AEDED3E51EDD948148F45C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eWAYPaymnet/Pods-eWAYPaymnet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6B5C963398C94109EA4A76A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eWAYPaymnetUITests/Pods-eWAYPaymnetUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3BBBFC130E24E78710F0CF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eWAYPaymnetUITests/Pods-eWAYPaymnetUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD1659723C72042A7E6E1F6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ECAAB017933BD436C6DF3ACB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F5F6038FDDEA9F42064A0969 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eWAYPaymnet/Pods-eWAYPaymnet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		506C0A071F99BE8C0008AF34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506C0A131F99BE8C0008AF34 /* ViewController.m in Sources */,
+				506C0A1E1F99BE8C0008AF34 /* main.m in Sources */,
+				506C0A101F99BE8C0008AF34 /* AppDelegate.m in Sources */,
+				506C0A431F99D6C20008AF34 /* ERProgressHud.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506C0A1F1F99BE8C0008AF34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506C0A281F99BE8C0008AF34 /* eWAYPaymnetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506C0A2A1F99BE8C0008AF34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506C0A331F99BE8C0008AF34 /* eWAYPaymnetUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		506C0A251F99BE8C0008AF34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 506C0A0A1F99BE8C0008AF34 /* eWAYPaymnet */;
+			targetProxy = 506C0A241F99BE8C0008AF34 /* PBXContainerItemProxy */;
+		};
+		506C0A301F99BE8C0008AF34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 506C0A0A1F99BE8C0008AF34 /* eWAYPaymnet */;
+			targetProxy = 506C0A2F1F99BE8C0008AF34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		506C0A141F99BE8C0008AF34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				506C0A151F99BE8C0008AF34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		506C0A191F99BE8C0008AF34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				506C0A1A1F99BE8C0008AF34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		506C0A351F99BE8D0008AF34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		506C0A361F99BE8D0008AF34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		506C0A381F99BE8D0008AF34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 989D865159167C7F49AEFF65 /* Pods-eWAYPaymnet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = eWAYPaymnet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emraz.eWAYPaymnet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		506C0A391F99BE8D0008AF34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3B7F8D021BC22C747F3F167 /* Pods-eWAYPaymnet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = eWAYPaymnet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emraz.eWAYPaymnet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		506C0A3B1F99BE8D0008AF34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A9745E4515ADEC2EC02CC92 /* Pods-eWAYPaymnetTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = eWAYPaymnetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emraz.eWAYPaymnetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eWAYPaymnet.app/eWAYPaymnet";
+			};
+			name = Debug;
+		};
+		506C0A3C1F99BE8D0008AF34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25F7E442E79B00AA6E271951 /* Pods-eWAYPaymnetTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = eWAYPaymnetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emraz.eWAYPaymnetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eWAYPaymnet.app/eWAYPaymnet";
+			};
+			name = Release;
+		};
+		506C0A3E1F99BE8D0008AF34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D93634DA0094666621033F /* Pods-eWAYPaymnetUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = eWAYPaymnetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emraz.eWAYPaymnetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eWAYPaymnet;
+			};
+			name = Debug;
+		};
+		506C0A3F1F99BE8D0008AF34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD83BCE79F530024C020F00 /* Pods-eWAYPaymnetUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = eWAYPaymnetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emraz.eWAYPaymnetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eWAYPaymnet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		506C0A061F99BE8C0008AF34 /* Build configuration list for PBXProject "eWAYPaymnet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506C0A351F99BE8D0008AF34 /* Debug */,
+				506C0A361F99BE8D0008AF34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		506C0A371F99BE8D0008AF34 /* Build configuration list for PBXNativeTarget "eWAYPaymnet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506C0A381F99BE8D0008AF34 /* Debug */,
+				506C0A391F99BE8D0008AF34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		506C0A3A1F99BE8D0008AF34 /* Build configuration list for PBXNativeTarget "eWAYPaymnetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506C0A3B1F99BE8D0008AF34 /* Debug */,
+				506C0A3C1F99BE8D0008AF34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		506C0A3D1F99BE8D0008AF34 /* Build configuration list for PBXNativeTarget "eWAYPaymnetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506C0A3E1F99BE8D0008AF34 /* Debug */,
+				506C0A3F1F99BE8D0008AF34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 506C0A031F99BE8C0008AF34 /* Project object */;
+}

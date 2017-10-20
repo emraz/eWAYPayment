@@ -1,0 +1,1 @@
+../../../eWAYPaymentsSDK/Pod/Classes/Enumerated.h
